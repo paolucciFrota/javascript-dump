@@ -1,0 +1,1 @@
+console.log('Bem-vindo a 30 dias tentando aprender JavaScript')
