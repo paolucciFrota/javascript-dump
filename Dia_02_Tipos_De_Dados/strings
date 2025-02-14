@@ -1,4 +1,3 @@
-// Declaring different variables of different data types
 let space = ' '
 let firstName = 'Gabriel'
 let lastName = 'Correa'
@@ -9,7 +8,29 @@ let job = 'Estudante'
 let age = 20
 
 
-let fullName =firstName + space + lastName
-let personInfoOne = 'Meu nome é ' fullName + '. Eu tenho ' + age + ' anos. E eu moro no ' + country; // ES5 string addition
+let fullName = firstName + space + lastName
+let personInfoOne = 'Meu nome é '+ fullName + '. Eu tenho ' + age + ' anos. E eu moro no ' + country;
 
 console.log(personInfoOne)
+
+//Adicionar variáveis de forma dinamica em strings
+
+let fullNameTwo = firstName + ' ' + lastName
+
+let personInfoTwo = `Meu nome é ${fullNameTwo}. Eu tenho ${age}. Eu moro no ${country}.`
+let personInfoThree = `Meu nome é ${fullNameTwo}. Eu moro em ${city}, ${country}. Eu sou um ${job}. Eu estou aprendendo ${language}.`
+console.log(personInfoTwo)
+console.log(personInfoThree)
+
+//Através do método de interpolação da para adicionar comparações
+
+let a = 4
+let b = 3
+console.log(`${a} é maior que ${b}: ${a > b}`)
+
+console.log(firstName.lenght)
+console.log(lastName.lenght)
+
+console.log(firstName.toUpperCase())
+console.log(lastName.toLowerCase())
+
