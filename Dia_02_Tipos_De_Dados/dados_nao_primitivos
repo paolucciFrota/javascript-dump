@@ -1,0 +1,43 @@
+let nums = [1, 2, 3]
+let numbers = [1, 2, 3]
+
+console.log(nums == numbers) // false
+
+let userOne = {
+    name: 'Gabriel',
+    role: 'Student',
+    country: 'Brazil',
+}
+
+let userTwo = {
+    name: 'Alexandre',
+    role: 'Student',
+    country: 'Switzerland',
+}
+
+console.log(userOne == userTwo) // false
+
+/*
+    Por via de dúvidas, não se compara tipos de dados não primitivos. Não se compara arrays, funções, objetos, etc.
+
+    Os tipos de dados não primitivos são comumento chamado de tipos referenciais, poruqe eles são comparados por referência
+    e não por valor.
+
+    Dois objetos são considerados iguals apenas de forem o mesmo objeto, ou seja,
+    se eles apontarem para o mesmo endereço de memória.
+*/
+
+let numsTwo = [1, 2, 3]
+let numbersTwo = numsTwo
+
+console.log(numsTwo == numbersTwo) // true
+
+let userThree = {
+    name: 'Gabriel',
+    role: 'Student',
+    country: 'Brazil',
+}
+
+let userFour = userThree
+
+console.log(userThree == userFour) // true

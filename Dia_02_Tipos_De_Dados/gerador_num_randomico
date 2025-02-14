@@ -1,0 +1,7 @@
+let randomNum = Math.random()
+let numBtnZeroAndTen = Math.floor(Math.random() * 101)
+
+console.log(numBtnZeroAndTen)
+
+let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen)
+console.log(randomNumRoundToFloor)

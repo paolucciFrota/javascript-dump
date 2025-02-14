@@ -1,0 +1,35 @@
+const PI = Math.PI
+
+console.log(PI)
+
+console.log(Math.round(PI)) // arredonda para o número mais próximo
+console.log(Math.floor(9.81)) // arredonda para baixo
+
+console.log(Math.floor(PI)) // arredonda para baixo
+
+console.log(Math.ceil(PI)) // arredonda para cima
+
+console.log(Math.min(-20, -3, 5, 83, 2892346752))  // retorna o menor número
+console.log(Math.max(-20, -3, 5, 83, 2892346752)) // retorna o maior número
+
+const randNum = Math.random()
+console.log(randNum)    
+
+const num = Math.floor(Math.random() * 11) // gera um número aleatório entre 0 e 10
+
+console.log(Math.abs(-10)) // retorna o valor absoluto
+
+console.log(Math.sqrt(100)) // raiz quadrada
+console.log(Math.sqrt(3))
+
+console.log(Math.pow(3, 2)) // potência
+console.log(Math.E) // constante de Euler
+
+console.log(Math.log(2)) // logaritmo natural
+console.log(Math.log10(10)) // logaritmo de base 10
+
+console.log(Math.LN2) // logaritmo natural de 2
+console.log(Math.LN10) // logaritmo natural de 10
+
+Math.sin(0) // seno
+Math.cos(0) // cosseno
