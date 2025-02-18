@@ -1,3 +1,5 @@
+🇧🇷
+
 Um repositório dos meus códigos em JavaScript.
 Fiquem a vontade de usar os códigos para aprender sobre essa linguagem, no fim eu acabo traduzindo os códigos e deixo notas que podem ser úteis para você também.
 
