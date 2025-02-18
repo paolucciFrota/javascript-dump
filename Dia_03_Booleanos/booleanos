@@ -7,3 +7,4 @@ let falseValue = 4 < 3  // false
 
 console.log(isLightOn)
 console.log(isRaining)
+console.log(isHungry)

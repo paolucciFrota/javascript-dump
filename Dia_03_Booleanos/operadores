@@ -7,4 +7,4 @@ let div = numOne / numTwo
 let remainder = numOne % numTwo
 let powerOf = numOne ** numTwo
 
-console.log(sum, diff, mult, div, remainder, powerOf)
+console.log(sum, diff, mult, div, remainder, powerOf) // 7 1 12 1.3333333333333333 1 64
