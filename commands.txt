@@ -1,0 +1,5 @@
+git remote add origin https://github.com/username/repository.git
+
+git add .
+git commit -m 
+git push origin main
